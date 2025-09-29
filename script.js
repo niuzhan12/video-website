@@ -4,7 +4,7 @@ const videoData = {
         {
             id: 1,
             title: "奥特之父和奥特之母",
-            thumbnail: "https://via.placeholder.com/300x200/ff6b6b/ffffff?text=AI换脸",
+            thumbnail: "https://via.placeholder.com/300x200/ff6b6b/ffffff?text=奥特之父",
             video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 585,
             duration: "11:03",
@@ -14,7 +14,7 @@ const videoData = {
         {
             id: 2,
             title: "【日韩精选】小爱和小心的深入交流",
-            thumbnail: "https://via.placeholder.com/300x200/4ecdc4/ffffff?text=爱豆传媒",
+            thumbnail: "https://via.placeholder.com/300x200/4ecdc4/ffffff?text=小爱小心",
             video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 1266,
             duration: "21:50",
@@ -24,7 +24,7 @@ const videoData = {
         {
             id: 3,
             title: "沸羊羊终于舔到了美羊羊",
-            thumbnail: "https://via.placeholder.com/300x200/45b7d1/ffffff?text=致命出轨",
+            thumbnail: "https://via.placeholder.com/300x200/45b7d1/ffffff?text=沸羊羊",
             video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 667,
             duration: "35:42",
@@ -34,7 +34,7 @@ const videoData = {
         {
             id: 4,
             title: "禁忌之恋，王母娘娘和美猴王",
-            thumbnail: "https://via.placeholder.com/300x200/96ceb4/ffffff?text=恋爱时",
+            thumbnail: "https://via.placeholder.com/300x200/96ceb4/ffffff?text=王母娘娘",
             video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 361,
             duration: "39:54",
@@ -45,14 +45,42 @@ const videoData = {
             id: 5,
             title: "【日韩精选】校园青春恋爱物语",
             thumbnail: "https://via.placeholder.com/300x200/feca57/ffffff?text=校园青春",
-            video: "sample-video5.mp4",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 892,
             duration: "28:15",
             brand: "日韩传媒",
             category: "japan"
         },
- 
-        // 添加你的新视频 - 示例
+        {
+            id: 6,
+            title: "【吃瓜爆料】明星私生活大揭秘",
+            thumbnail: "https://via.placeholder.com/300x200/ff9ff3/ffffff?text=吃瓜爆料",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
+            views: 1543,
+            duration: "15:30",
+            brand: "吃瓜传媒",
+            category: "gossip"
+        },
+        {
+            id: 7,
+            title: "【解说】经典电影深度解析",
+            thumbnail: "https://via.placeholder.com/300x200/ff6b6b/ffffff?text=电影解说",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
+            views: 723,
+            duration: "42:18",
+            brand: "解说频道",
+            category: "commentary"
+        },
+        {
+            id: 8,
+            title: "【同城交友】线下聚会精彩回顾",
+            thumbnail: "https://via.placeholder.com/300x200/4ecdc4/ffffff?text=同城交友",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
+            views: 456,
+            duration: "25:45",
+            brand: "同城交友",
+            category: "dating"
+        },
         {
             id: 9,
             title: "肥嘟嘟左卫门大人的精彩表演",
@@ -61,7 +89,7 @@ const videoData = {
             views: 1234,
             duration: "15:30",
             brand: "肥嘟嘟传媒",
-            category: "domestic" // 可选分类：domestic, media, gossip, japan, commentary, dating, spring
+            category: "domestic"
         }
     ],
     domestic: [],
@@ -340,5 +368,5 @@ window.videoApp = {
 };
 
 // 页面加载完成后的初始化
-console.log('蜜桃视频网站已加载完成');
+console.log('肥嘟嘟左卫门大人视频网站已加载完成');
 console.log('视频统计:', getVideoStats());
