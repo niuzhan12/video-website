@@ -5,7 +5,7 @@ const videoData = {
             id: 1,
             title: "奥特之父和奥特之母",
             thumbnail: "https://via.placeholder.com/300x200/ff6b6b/ffffff?text=AI换脸",
-            video: "sample-video1.mp4",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 585,
             duration: "11:03",
             brand: "OL传媒",
