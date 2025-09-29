@@ -15,7 +15,7 @@ const videoData = {
             id: 2,
             title: "【日韩精选】小爱和小心的深入交流",
             thumbnail: "https://via.placeholder.com/300x200/4ecdc4/ffffff?text=爱豆传媒",
-            video: "sample-video2.mp4",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 1266,
             duration: "21:50",
             brand: "爱豆传媒",
@@ -25,7 +25,7 @@ const videoData = {
             id: 3,
             title: "沸羊羊终于舔到了美羊羊",
             thumbnail: "https://via.placeholder.com/300x200/45b7d1/ffffff?text=致命出轨",
-            video: "sample-video3.mp4",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 667,
             duration: "35:42",
             brand: "麻豆传媒",
@@ -35,7 +35,7 @@ const videoData = {
             id: 4,
             title: "禁忌之恋，王母娘娘和美猴王",
             thumbnail: "https://via.placeholder.com/300x200/96ceb4/ffffff?text=恋爱时",
-            video: "sample-video4.mp4",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 361,
             duration: "39:54",
             brand: "MD543.COM",
@@ -56,8 +56,8 @@ const videoData = {
         {
             id: 9,
             title: "肥嘟嘟左卫门大人的精彩表演",
-            thumbnail: "your-thumbnail.jpg", // 替换为你的缩略图路径
-            video: "your-video.mp4", // 替换为你的视频文件路径
+            thumbnail: "https://via.placeholder.com/300x200/ff6b6b/ffffff?text=肥嘟嘟传媒",
+            video: "lbxx/蜡笔小新_爱给网_aigei_com.mp4",
             views: 1234,
             duration: "15:30",
             brand: "肥嘟嘟传媒",
