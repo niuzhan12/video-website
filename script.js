@@ -3,7 +3,7 @@ const videoData = {
     all: [
         {
             id: 1,
-            title: "【AI换脸】韩雪高级按摩店的体验#性交",
+            title: "奥特之父和奥特之母",
             thumbnail: "https://via.placeholder.com/300x200/ff6b6b/ffffff?text=AI换脸",
             video: "sample-video1.mp4",
             views: 585,
@@ -13,7 +13,7 @@ const videoData = {
         },
         {
             id: 2,
-            title: "[ID-5227] 【爱豆传媒】 【夏露】田径教练性侵女运动员",
+            title: "【日韩精选】小爱和小心的深入交流",
             thumbnail: "https://via.placeholder.com/300x200/4ecdc4/ffffff?text=爱豆传媒",
             video: "sample-video2.mp4",
             views: 1266,
@@ -23,7 +23,7 @@ const videoData = {
         },
         {
             id: 3,
-            title: "致命出轨-血色设计师,若情",
+            title: "沸羊羊终于舔到了美羊羊",
             thumbnail: "https://via.placeholder.com/300x200/45b7d1/ffffff?text=致命出轨",
             video: "sample-video3.mp4",
             views: 667,
@@ -33,7 +33,7 @@ const videoData = {
         },
         {
             id: 4,
-            title: "当男人恋爱时不",
+            title: "禁忌之恋，王母娘娘和美猴王",
             thumbnail: "https://via.placeholder.com/300x200/96ceb4/ffffff?text=恋爱时",
             video: "sample-video4.mp4",
             views: 361,
@@ -51,36 +51,7 @@ const videoData = {
             brand: "日韩传媒",
             category: "japan"
         },
-        {
-            id: 6,
-            title: "【吃瓜爆料】明星私生活大揭秘",
-            thumbnail: "https://via.placeholder.com/300x200/ff9ff3/ffffff?text=吃瓜爆料",
-            video: "sample-video6.mp4",
-            views: 1543,
-            duration: "15:30",
-            brand: "吃瓜传媒",
-            category: "gossip"
-        },
-        {
-            id: 7,
-            title: "【解说】经典电影深度解析",
-            thumbnail: "https://via.placeholder.com/300x200/ff6b6b/ffffff?text=电影解说",
-            video: "sample-video7.mp4",
-            views: 723,
-            duration: "42:18",
-            brand: "解说频道",
-            category: "commentary"
-        },
-        {
-            id: 8,
-            title: "【同城交友】线下聚会精彩回顾",
-            thumbnail: "https://via.placeholder.com/300x200/4ecdc4/ffffff?text=同城交友",
-            video: "sample-video8.mp4",
-            views: 456,
-            duration: "25:45",
-            brand: "同城交友",
-            category: "dating"
-        },
+ 
         // 添加你的新视频 - 示例
         {
             id: 9,
