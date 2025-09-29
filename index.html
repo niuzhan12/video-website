@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蜜桃视频</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">蜜桃视频</h1>
+            <div class="header-actions">
+                <button class="action-btn"><i class="fas fa-search"></i></button>
+                <button class="action-btn"><i class="fas fa-user"></i></button>
+                <button class="action-btn"><i class="fas fa-bell"></i></button>
+                <button class="action-btn"><i class="fas fa-globe"></i> 网址</button>
+                <button class="action-btn special">AI脱衣</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主导航分类 -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <button class="nav-arrow left" id="navLeft"><i class="fas fa-chevron-left"></i></button>
+            <div class="nav-scroll" id="navScroll">
+                <a href="#" class="nav-item active" data-category="all">首页</a>
+                <a href="#" class="nav-item" data-category="domestic">国产</a>
+                <a href="#" class="nav-item" data-category="media">传媒</a>
+                <a href="#" class="nav-item" data-category="gossip">吃瓜</a>
+                <a href="#" class="nav-item" data-category="japan">日韩</a>
+                <a href="#" class="nav-item" data-category="commentary">解说</a>
+                <a href="#" class="nav-item" data-category="dating">同城交友</a>
+                <a href="#" class="nav-item" data-category="spring">春</a>
+                <a href="#" class="nav-item" data-category="more">更多</a>
+            </div>
+            <button class="nav-arrow right" id="navRight"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </nav>
+
+    <!-- 特色创作者区域 -->
+    <section class="featured-creators">
+        <div class="creators-scroll" id="creatorsScroll">
+            <div class="creator-item">
+                <div class="creator-avatar">
+                    <img src="https://via.placeholder.com/60x60/ff6b6b/ffffff?text=苍井空" alt="苍井空">
+                </div>
+                <span class="creator-name">苍井空</span>
+            </div>
+            <div class="creator-item">
+                <div class="creator-avatar">
+                    <img src="https://via.placeholder.com/60x60/4ecdc4/ffffff?text=早乙女" alt="早乙女">
+                </div>
+                <span class="creator-name">早乙女</span>
+            </div>
+            <div class="creator-item">
+                <div class="creator-avatar">
+                    <img src="https://via.placeholder.com/60x60/45b7d1/ffffff?text=天使萌" alt="天使萌">
+                </div>
+                <span class="creator-name">天使萌</span>
+            </div>
+            <div class="creator-item">
+                <div class="creator-avatar">
+                    <img src="https://via.placeholder.com/60x60/96ceb4/ffffff?text=高桥圣子" alt="高桥圣子">
+                </div>
+                <span class="creator-name">高桥圣子</span>
+            </div>
+            <div class="creator-item">
+                <div class="creator-avatar">
+                    <img src="https://via.placeholder.com/60x60/feca57/ffffff?text=石原莉奈" alt="石原莉奈">
+                </div>
+                <span class="creator-name">石原莉奈</span>
+            </div>
+            <div class="creator-item">
+                <div class="creator-avatar">
+                    <img src="https://via.placeholder.com/60x60/ff9ff3/ffffff?text=铃才" alt="铃才">
+                </div>
+                <span class="creator-name">铃才</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <div class="content-header">
+            <h2>最新视频</h2>
+        </div>
+        
+        <!-- 视频网格 -->
+        <div class="video-grid" id="videoGrid">
+            <!-- 视频项目将通过JavaScript动态生成 -->
+        </div>
+    </main>
+
+    <!-- 视频播放模态框 -->
+    <div class="video-modal" id="videoModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <video id="videoPlayer" controls>
+                <source src="" type="video/mp4">
+                您的浏览器不支持视频播放。
+            </video>
+            <div class="video-info">
+                <h3 id="videoTitle"></h3>
+                <p id="videoDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
